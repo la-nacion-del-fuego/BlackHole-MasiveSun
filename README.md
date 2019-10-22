@@ -1,4 +1,4 @@
-![EmblemaFuegoControl](https://user-images.githubusercontent.com/38228291/67334009-ce935a00-f521-11e9-8351-6f28765d8f81.png)
+![EmblemaFuegoControl](https://user-images.githubusercontent.com/38228291/67335050-6ba2c280-f523-11e9-93c5-928435fdd118.png)
 # BlacHole-MasiveSun 
 #### Introdution
 In this project we will simulate the effect of accretion, accretion is the aggregation of matter to a body. For example, the accretion of mass by a star is the addition of mass to the star from interstellar matter or another star.
