@@ -12,4 +12,6 @@ we will apply the accretion effect to a supermassive black hole that will drain 
 - We start with the class "def_particle()" where we work with the particle and we define a constructor "_init_()" whitin the class.
 - In the definition we do the function that will integrate the system by calculating the new position of "bhole." "def_integrate()".
 - We will calculate the kinetic energy of a particle with the method "def_getkinecticEnergy()"
-- Now we create the "bhole" particle that will be the super massive "Sagittarius" black hole, in this class an object is being created and disappearing. Once created, we add elements of speed, positioning and mass that will be (0,0,0) because it is static. These will be the initial conditions of our particle
+- Now we create the "bhole" particle that will be the super massive "Sagittarius" black hole, in this class an object is being created and disappearing. Once created, we add elements of positioning, speed and mass (0,0,7,38 M. M☉). because it is static. These will be the initial conditions of our particle
+- Then we will make prints integrating the delta time "bhole.integrate (dt)" and we will test in a cycle "for t in the range (450)", each iteration is a cycle.
+-Now we will add the star "Canis" that will be increased by the black hole, we add the initial conditions of distance position of the black hole, speed and mass (20e ^ 8 km, y = 5e ^ 5, 33.81 M. M☉).
