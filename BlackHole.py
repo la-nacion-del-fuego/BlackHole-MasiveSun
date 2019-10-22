@@ -115,11 +115,11 @@ class Potential:
 
         return self.system
 
-lenTime = 350000 # 1 -> 1000 años por lo que 100*1000 = 1 millon
-dt=10.0              #años  
+lenTime = 450000 # 1 -> 1000 años por lo que 100*1000 = 1 millon
+dt=10.0              #años
 
-bhole=Particle([0.0, 0.0, 0.0] ,[0.0, 0.0, 0.0],8.57259e30)
-Canis = Particle([20e8, 0.0, 0.0] ,[0.0, 5e5, 0.0],33.813e30)
+bhole=Particle([0.0, 0.0, 0.0] ,[0.0, 0.0, 0.0],7.359e30) # posicion[km],v[km/años],m[MasaSolar]: El agujero negro tiene una masa solar de 3.7masasSolares == 7.259x10^30kg
+Canis = Particle([20e8, 0.0, 0.0] ,[0.0, 5e5, 0.0],33.813e30) # posicion[km],v[km/años],m[MasaSolar]: La estrella Canis tiene una masa solar de 17masasSolares == 33.813x10^30kg
 
 n_steps = int(lenTime/dt)
 
