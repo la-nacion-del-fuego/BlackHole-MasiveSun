@@ -116,7 +116,7 @@ class Potential:
         return self.system
 
 lenTime = 350000 # 1 -> 1000 años por lo que 100*1000 = 1 millon
-dt=10.0              #sec  
+dt=10.0              #años  
 
 bhole=Particle([0.0, 0.0, 0.0] ,[0.0, 0.0, 0.0],8.57259e30)
 Canis = Particle([20e8, 0.0, 0.0] ,[0.0, 5e5, 0.0],33.813e30)
