@@ -23,3 +23,4 @@ we will apply the accretion effect to a supermassive black hole that will drain 
 - we calculate the distance using the Pythagorean theorem
 and we will be integrating the super massive star with respect to the black hole so that the direction of the path is correct.
 - Things that are necessary to mention is that the cycle with which we are working serves to see the movement of the particles with the passage of the iterations and the graph that our programmer will show will be of three dimensions and we will not be working with an acceleration, only it will be the speed that we will include.
+![accretion-old]<center>(https://user-images.githubusercontent.com/38228291/67441287-901e9d80-f5fc-11e9-8597-14014d006e4a.jpg)
