@@ -20,6 +20,6 @@ we will apply the accretion effect to a supermassive black hole that will drain 
 - We will calculate the distance r with the method **"def_computer ()"** in **"def_integrate ()"**.
 - **"r"** will begin with a value of **20e ^ 8 km** away from "Canis", the distance will change with respect to the time it will be every thousand years. The distance changes will be calculated by the program since the change of "r" does not have a pattern because they depend on the black hole.
 - We calculate a **"U"** vector, which is the direction for not obtaining opposing forces using the method **"def_computerU"**.
-- we calculate the distance using **the Pythagorean theorem**
+- we calculate the distance using the Pythagorean theorem
 and we will be integrating the super massive star with respect to the black hole so that the direction of the path is correct.
 - Things that are necessary to mention is that the cycle with which we are working serves to see the movement of the particles with the passage of the iterations and the graph that our programmer will show will be of three dimensions and we will not be working with an acceleration, only it will be the speed that we will include.
