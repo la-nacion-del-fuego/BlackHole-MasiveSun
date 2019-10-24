@@ -1,1 +1,8 @@
-
+                    these requirements are necessary to be ableto work with the project code 
+                     "The behavior of the Sagittarius black hole with the star VY Canis"
+                     
+                     
+                     
+                     requirements: -Python3
+                                   -Library Matplotlib 3.1.1
+                                   -Library Math
