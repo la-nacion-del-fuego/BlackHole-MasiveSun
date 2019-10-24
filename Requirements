@@ -6,3 +6,11 @@
                      requirements: -Python3
                                    -Library Matplotlib 3.1.1
                                    -Library Math
+                                   
+                                   
+                      you can copy and paste this:
+                                
+                                import math
+                                import matplotlib
+                                import matplotlib.pyplot as plt
+                                from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 unused import
