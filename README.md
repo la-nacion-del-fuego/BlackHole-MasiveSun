@@ -6,7 +6,15 @@ In this project we will simulate the effect of accretion, accretion is the aggre
 
 we will apply the accretion effect to a supermassive black hole that will drain the matter from the most giant star seen by the human, this star will be orbiting the black hole with some acceleration.
 
-#### methodology
+The following image is a clear example of the accretion effect that we will simulate between a black hole (Sagittarius) and a super massive sun or star (VY Canis A *)
+
+<p align="center">
+  <img width="230" height="160" src="https://user-images.githubusercontent.com/38228291/67441287-901e9d80-f5fc-11e9-8597-14014d006e4a.jpg">
+</p>
+
+Our goal to simulate being able to observe the behavior of "VY Canis" and "Sagittarius A *" if there were a case in which the gravitational ranges of both supermassive bodies coincided.
+
+#### Methodology and Implementation
 
 - first we import matplotlip and math in addition to adding copyright
 - We start with the class **"def_particle()"** where we work with the particle and we define a constructor **"_init_()"** whitin the class.
@@ -23,6 +31,11 @@ we will apply the accretion effect to a supermassive black hole that will drain 
 - we calculate the distance using the Pythagorean theorem
 and we will be integrating the super massive star with respect to the black hole so that the direction of the path is correct.
 - Things that are necessary to mention is that the cycle with which we are working serves to see the movement of the particles with the passage of the iterations and the graph that our programmer will show will be of three dimensions and we will not be working with an acceleration, only it will be the speed that we will include.
-<p align="center">
-  <img width="230" height="160" src="https://user-images.githubusercontent.com/38228291/67441287-901e9d80-f5fc-11e9-8597-14014d006e4a.jpg">
-</p>
+
+## Outcome and Prints
+
+
+
+
+#### Bibliography
+
