@@ -1,5 +1,12 @@
 ![EmblemaFuegoControl](https://user-images.githubusercontent.com/38228291/67335050-6ba2c280-f523-11e9-93c5-928435fdd118.png)
 # BlacHole-MasiveSun 
+#### How to run the program
+- Before running the program make sure you have the necessary requirements.
+
+- Once done, run the program from the console using the command 
+>> - python3 BlackHole.py
+
+
 #### Introdution
 In this project we will simulate the effect of accretion, accretion is the aggregation of matter to a body. For example, the accretion of mass by a star is the addition of mass to the star from interstellar matter or another star.
 
@@ -20,9 +27,9 @@ Our goal to simulate being able to observe the behavior of "VY Canis" and "Sagit
 - We start with the class **"def_particle()"** where we work with the particle and we define a constructor **"_init_()"** whitin the class.
 - In the definition we do the function that will integrate the system by calculating the new position of "bhole." **"def_integrate()"**.
 - We will calculate the kinetic energy of a particle with the method **"def_getkinecticEnergy()"**
-- Now we create the "bhole" particle that will be the super massive "Sagittarius" black hole, in this class an object is being created and disappearing. Once created, we add elements of positioning, speed and mass **(0,0,7.38 M. M☉)**. because it is static. These will be the initial conditions of our particle
+- Now we create the "bhole" particle that will be the super massive "Sagittarius" black hole, in this class an object is being created and disappearing. Once created, we add elements of positioning, speed and mass **(0,0,33.813e^30 M. M☉)**. because it is static. These will be the initial conditions of our particle
 - Then we will make prints integrating the delta time **"bhole.integrate(dt)"** and we will test in a cycle **"for t in the range (450)"**, each iteration is a cycle.
--Now we will add the star "Canis" that will be increased by the black hole, we add the initial conditions of distance position of the black hole, speed and mass **(20e ^ 8 km, y = 5e ^ 5, 33.81 M. M☉)**.
+-Now we will add the star "Canis" that will be increased by the black hole, we add the initial conditions of distance position of the black hole, speed and mass **(20e ^ 8 km, y = 5e ^ 5, 7.359e^30  M. M☉)**.
 - The force exerted between two particles is measured after obtaining the distance between the two masses to know at what point the black hole make accretion with respect to the super massive star.
 - We get the value of **"r"** (r is the distance between two particles) which is **"r = √2"**
 - We will calculate the distance r with the method **"def_computer ()"** in **"def_integrate ()"**.
@@ -34,8 +41,23 @@ and we will be integrating the super massive star with respect to the black hole
 
 ## Outcome and Prints
 
-
-
+try 1: 
+![Intento1](https://user-images.githubusercontent.com/38228291/67534840-561ecb80-f6d0-11e9-9f21-13e10c374210.png)
+try 2:
+![Intento2](https://user-images.githubusercontent.com/38228291/67534850-646ce780-f6d0-11e9-90e3-5282e9db9aa0.png)
+try 3:
+![Intento2_1](https://user-images.githubusercontent.com/38228291/67534872-72226d00-f6d0-11e9-9002-db783d32be30.png)
+image 1:
+![image](https://user-images.githubusercontent.com/38228291/67534881-7c446b80-f6d0-11e9-8abc-59aec6c1fe18.png)
+image 2:
+![image (1)](https://user-images.githubusercontent.com/38228291/67534901-8a928780-f6d0-11e9-88cb-b17de4cddccd.png)
 
 #### Bibliography
 
+- [definition of accretion](https://www.astromia.com/glosario/acrecion.htm)
+
+- [image and acrettion information](https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=66143)
+
+- [Markdow support in Spanish](https://markdown.es/sintaxis-markdown/#links)
+
+-  [fire nation image](https://es.wikipedia.org/wiki/Naci%C3%B3n_del_Fuego#/media/Archivo:EmblemaFuegoControl.png)
