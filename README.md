@@ -5,7 +5,7 @@
 
 - Once done, for usage:
 >> - git clone https://github.com/la-nacion-del-fuego/BlackHole-MasiveSun.git
->> - cd BlackHole-MassiveSun
+>> - cd BlackHole-MasiveSun-master
 >> - python3 BlackHole.py
 
 
