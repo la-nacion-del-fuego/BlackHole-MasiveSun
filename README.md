@@ -3,7 +3,9 @@
 #### How to run the program
 - Before running the program make sure you have the necessary requirements.
 
-- Once done, run the program from the console using the command 
+- Once done, for usage:
+>> - git clone https://github.com/la-nacion-del-fuego/BlackHole-MasiveSun.git
+>> - cd BlackHole-MassiveSun
 >> - python3 BlackHole.py
 
 
