@@ -134,8 +134,8 @@ class Potential:
 
         return self.system
 
-#lenTime = 450000 # 1 -> 1000 años por lo que 100*1000 = 1 millon
-lenTime = 900000
+lenTime = 450000 # 1 -> 100 años 
+#lenTime = 900000
 dt=10.0  #años
 
 bhole=Particle([0.0, 0.0, 0.0] ,[0.0, 0.0, 0.0],7.359e30) # posicion[km],v[km/años],m[MasaSolar]: El agujero negro tiene una masa solar de 3.7masasSolares == (7.259x10^30)kg
