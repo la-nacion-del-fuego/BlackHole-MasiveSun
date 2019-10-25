@@ -102,9 +102,9 @@ class Particle:
     def updateMass(self,Particle1:"bhole",Particle2:"Canis"):
         distance = math.sqrt( math.pow(Particle2.p[0]-Particle1.p[0],2) + math.pow(Particle2.p[1] - Particle1.p[1],2) + math.pow(Particle2.p[2]-Particle1.p[2],2))
         
-        if distance <= 0.15e10:
-            Particle1.m = Particle1.m + (Particle2.m - (Particle2 - 8e10))
-            Particle2.m = (Particle2.m - (Particle2 - 8e10))
+        if distance <= 3.2e10: # <--- intentar buscar la buena
+            Particle1.m = Particle1.m + 4.4452577e+21
+            Particle2.m = Particle2.m - 4.4452577e+21
 
         return Particle1.m,Particle2.m
 
@@ -116,12 +116,16 @@ class Potential:
         self.dt = dt #set of Particles
 
     def integrate(self,time,save):
-        for particle in self.system:
+        for i,particle in enumerate(self.system):
             for other in self.system:
                 if other != particle:
-                    m1,m2 = other.updateMass(particle,other)
-                    self.system[0].m = m1
-                    self.system[1].m = m2
+                    if(i == 0):
+                        m1,m2 = other.updateMass(particle,other)
+                        self.system[0].m = m1
+                        self.system[1].m = m2
+                        #print(m1,self.system[0].m)
+                        mass_Sagitario.append(self.system[0].m)
+                        mass_Canis.append(self.system[1].m)
                     velocity = particle.computeV(other)
                     particle.updateV(velocity)
         for particle in self.system:
@@ -146,6 +150,8 @@ twoBody = Potential(particles,dt)
 x=[]
 y=[]
 
+mass_Sagitario = [7.359e30]
+mass_Canis = [33.813e30]
 
 skip = 0
 save = False
@@ -153,6 +159,7 @@ for t in range(1,n_steps):
     if skip == 10:
         skip = 0 
         save = True
+    
     system = twoBody.integrate(float(t)*dt,save)
     save = False
     skip += 1
@@ -174,5 +181,20 @@ for particle in particles:
     i=i+1
 
 
+plt.show()
 
+fig, axs = plt.subplots(2, 1, figsize=(6, 8),
+                        constrained_layout=True)
+
+ax = axs[0]
+ax.plot([i for i in range(len(mass_Sagitario))], mass_Sagitario)
+ax.set_xscale('log')
+ax.set_title('Aumento de Masa en Sagitario')
+ax.grid(True)
+
+ax = axs[1]
+ax.plot([i for i in range(len(mass_Canis))], mass_Canis)
+ax.set_xscale('log')
+ax.set_title('Disminucion de Masa en Canis')
+ax.grid(True)
 plt.show()
