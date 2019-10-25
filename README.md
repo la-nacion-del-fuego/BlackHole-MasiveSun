@@ -43,6 +43,10 @@ Our goal to simulate being able to observe the behavior of "VY Canis" and "Sagit
 ## Outcome and Prints
   
   
+result: Now we know that due to the mass of both bodies they behave like a binary system that is slowly dying due to the passing of the years through the black hole is absorbing the mass of Canis.The mass of VY Canis Majoris is reduced approximately
+6.9e^23 every 10 years and the Sagittarius earns the same amount of mass.
+
+  
 test 1: This graph exemplifies or shows that at the beginning both masses being incredibly gigantic are attracted and the sun being more massive the black hole tends to move faster than the sun, both pass close to each other and then move away but without losing their attraction.
 >Variables:
 >>- VCw := 33.813e^30          
