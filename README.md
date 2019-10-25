@@ -1,5 +1,8 @@
 ![EmblemaFuegoControl](https://user-images.githubusercontent.com/38228291/67335050-6ba2c280-f523-11e9-93c5-928435fdd118.png)
 # BlacHole-MasiveSun 
+
+This is a fork of Implementation of N-Body System Code, De La Luz, V. https://github.com/itztli/n-body.git
+
 #### How to run the program
 - Before running the program make sure you have the necessary requirements.
 
@@ -101,6 +104,7 @@ Loss and increase of matter:
 - this image complements the loss and gain of matter from the previous graph
 ![complemento image](https://user-images.githubusercontent.com/38228291/67544392-8b89e000-f6f5-11e9-82f2-7de63698a12c.png)
 #### Bibliography
+- [Implementation of N-Body System] De La Luz, V. GitHub.com. https://github.com/itztli/n-body.git
 
 - [definition of accretion](https://www.astromia.com/glosario/acrecion.htm)
 
@@ -113,3 +117,4 @@ Loss and increase of matter:
 - [Markdow support in Spanish](https://markdown.es/sintaxis-markdown/#links)
 
 - [fire nation image](https://es.wikipedia.org/wiki/Naci%C3%B3n_del_Fuego#/media/Archivo:EmblemaFuegoControl.png)
+
