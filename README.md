@@ -18,7 +18,7 @@ In this project we will simulate the effect of accretion, accretion is the aggre
 
 we will apply the accretion effect to a supermassive black hole that will drain the matter from the most giant star seen by the human, this star will be orbiting the black hole with some acceleration.
 
-The following image is a clear example of the accretion effect that we will simulate between a black hole (Sagittarius) and a super massive sun or star (VY Canis A *)
+The following image is a clear example of the accretion effect that we will simulate between a black hole (Sagittarius) and a super massive star (VY Canis A *)
 
 <p align="center">
   <img width="230" height="160" src="https://user-images.githubusercontent.com/38228291/67441287-901e9d80-f5fc-11e9-8597-14014d006e4a.jpg">
@@ -43,7 +43,7 @@ Our goal to simulate being able to observe the behavior of "VY Canis" and "Sagit
 - We calculate the distance using the Pythagorean theorem and we will be integrating the super massive star with respect to the black hole so that the direction of the path is correct.
 - Things that are necessary to mention is that the cycle with which we are working serves to see the movement of the particles with the passage of the iterations and the graph that our programmer will show will be of three dimensions and we will not be working with an acceleration, only it will be the speed that we will include.
 - we will have a trajectory change function called updateposition that will be in charge of updating the position with respect to the trajectory that is taking. The speed of "VY Canis Majoris" (super massive star) will always be the same when approaching and moving away from the black hole, its mass will only decrease due to the accretion effect.
-- We will also implement the updateMass class where we will work with the exchange of matter between Cagitario and Canis when it falls into its gravitational potential.
+- We will also implement the updateMass class where we will work with the exchange of matter between Sagittarius and Canis when it falls into its gravitational potential.
 - Finally we will implement the **plot class** to trace the trajectory of "VY canis A *".
 ## Outcome and Prints
   
@@ -52,7 +52,7 @@ result: Now we know that due to the mass of both bodies they behave like a binar
 6.9e^23 every 10 years and the Sagittarius earns the same amount of mass.
 
   
-test 1: This graph exemplifies or shows that at the beginning both masses being incredibly gigantic are attracted and the sun being more massive the black hole tends to move faster than the sun, both pass close to each other and then move away but without losing their attraction.
+test 1: This graph exemplifies or shows that at the beginning both masses being incredibly gigantic are attracted and the supermassive star being more massive the black hole tends to move faster than the supermassive star, both pass close to each other and then move away but without losing their attraction.
 >Variables:
 >>- VCw := 33.813e^30          
 >>- Sw := 7.359e^30
@@ -85,7 +85,7 @@ test 3: This image is exactly the same as the previous one in its initial condit
 ![Intento2_1](https://user-images.githubusercontent.com/38228291/67534872-72226d00-f6d0-11e9-9002-db783d32be30.png)
   
   
-test 4: In this last test, we decided to see what would happen once the hole has already completely consumed the sun.
+test 4: In this last test, we decided to see what would happen once the hole has already completely consumed the supermassive star.
 The image shows a few moments before the sun disappears completely, where it generates a kind of small spiral just before obtaining its future trajectory.
 >Variables:
 >>- VCw := 33.813e^30
